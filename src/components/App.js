@@ -14,7 +14,11 @@ function App() {
       <div className="card">
         <div className="top">
           <h2 className="name">Edoyak</h2>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIDTRdQ0s_REO_PS1drsrdbzKcSRP2GOkgZA&usqp=CAU" alt="kay-img"></img>
+          <img className="circle"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIDTRdQ0s_REO_PS1drsrdbzKcSRP2GOkgZA&usqp=CAU" alt="kay-img"></img>
+        </div>
+        <div className="bottom">
+          <p>+1-234-567-890</p>
+          <p>kay@kay.com</p>
         </div>
       </div>
     </div>
