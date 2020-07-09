@@ -4,38 +4,25 @@ import Footer from './Footer';
 import Note from './Note';
 import Card from "./Card";
 import contacts from "../Contacts";
-
 import './styles.css';
 
+function createCard(contact){
+  return (
+    <Card 
+      key={contact.id}
+      name={contact.myname} 
+      img={contact.myimg}
+      tel={contact.mytel}
+      mail={contact.myemail}
+  />
+  );
+}
 function App() {
   return <div>
     <Header />
     <Note />
+    {contacts.map(createCard)}
     <Footer />
-    <Card
-      name = {contacts[0].myname}
-      img  = {contacts[0].myimg}
-      tel  = {contacts[0].mytel}
-      email= {contacts[0].myemail}
-      />
-    <Card
-      name = {contacts[1].myname}
-      img  = {contacts[1].myimg}
-      tel  = {contacts[1].mytel}
-      email= {contacts[1].myemail}
-      />
-      <Card
-      name = {contacts[2].myname}
-      img  = {contacts[2].myimg}
-      tel  = {contacts[2].mytel}
-      email= {contacts[2].myemail}
-      />
-      <Card
-      name = {contacts[3].myname}
-      img  = {contacts[3].myimg}
-      tel  = {contacts[3].mytel}
-      email= {contacts[3].myemail}
-      />
   </div>
 }
 
