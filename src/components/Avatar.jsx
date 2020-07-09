@@ -1,7 +1,7 @@
 import React from "react";
 
 function Avatar(props){
-    return <img className="circle-img"  src={props.img} alt="kay-img"></img>
+    return <img className="circle-img"  src={props.img} alt="kay-imgs"></img>
 }
 
 export default Avatar;
