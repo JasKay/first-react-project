@@ -99,7 +99,7 @@ footer p{
   color: #145236;
   display: flex;
   flex: 1;
-  margin: 10% 20px 0;
+  margin: 2% 20px 0;
 }
 
 .card img{
@@ -120,5 +120,6 @@ footer p{
 }
 
 .info{
-  
+  margin: 20px 0;
+  color: red;
 }
