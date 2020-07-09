@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Note from './Note';
 import Card from "./Card";
 import contacts from "../Contacts";
+import AppForEmoji from "./AppForEmoji"
 import './styles.css';
 
 function createCard(contact){
@@ -22,6 +23,7 @@ function App() {
     <Header />
     <Note />
     {contacts.map(createCard)}
+    <AppForEmoji />
     <Footer />
   </div>
 }
