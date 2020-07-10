@@ -4,8 +4,9 @@ import Footer from './Footer';
 import Note from './Note';
 import Card from "./Card";
 import contacts from "../Contacts";
-import AppForEmoji from "./AppForEmoji"
+import AppForEmoji from "./AppForEmoji";
 import './styles.css';
+import emojipedia from '../emojipedia';
 
 function createCard(contact){
   return (
@@ -22,7 +23,7 @@ function App() {
   return <div>
     <Header />
     <Note />
-    {contacts.map(createCard)}
+    {emojipedia.map(createCard)}
     <AppForEmoji />
     <Footer />
   </div>
