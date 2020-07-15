@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Note from './Note';
 import Card from "./Card";
 import contacts from "../Contacts";
+import stuff from "./Detail"
 import AppForEmoji from "./AppForEmoji";
 import './styles.css';
 import emojipedia from '../emojipedia';
